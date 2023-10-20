@@ -26,8 +26,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #define MASTER_RIGHT
 // #define EE_HANDS
 
-#define TAPPING_FORCE_HOLD
-#define TAPPING_TERM 100
+
+// Configure the global tapping term
+#define TAPPING_TERM 250
+
+// Enable rapid switch from tap to hold, disables double tap hold auto-repeat.
+#define QUICK_TAP_TERM 0
 
 #undef RGBLED_NUM
 #define RGBLIGHT_ANIMATIONS
